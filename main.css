@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    /* font-family: 'Kanit', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Tai Heritage Pro', serif; */
+
+}
+.label-dongho{
+    text-align: center;
+}
+.vien{
+    width: 5%;
+    height: 2.4px;
+    background-color: rgb(255, 0, 0);
+    margin-bottom: 33px;
+    margin-top: 20px;
+}
+
+.section-top-chinh-hang{
+    /* height: 333px; */
+    /* width: 100%; */
+    background-color: #ccc;
+    
+}
+.introduce{
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-weight: 700;
+    font-style: normal;
+}
+.commit{
+    height: 124px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:2%;
+}
+/* .list-logo{
+    margin-top: 10px;
+} */
+.col-inner{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* flex: 1 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+}
+.col > .col-inner{
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.plain{
+    text-decoration: none;
+    /* transition: color .3s,opacity .3s,transform .3s; */
+    color: currentColor;
+}
+.text-center{
+    text-align: center;
+}
+.is-small,.is-small.button{
+    font-size: .8em;
+}
+.icon-box-center .icon-box-img{
+    margin: 0 auto 1em;
+}
+.icon-box .icon-box-img{
+    max-width: 100%;
+    position: relative;
+}
+.text-center > div > div{
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-box-img img,.icon-box-img svg {
+    padding-top: 0.2em;
+    width: 100%;
+}
+/* Product */
+
+.product-item{
+    position: relative;
+}
+.product-sale{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    background-color: #b20000;
+    top: 20px;
+    left: -2px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.box-img{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.box-img img{
+    margin:0 auto;
+    max-width: 100%;
+    width: 100%;
+}
+.box-text.text-center {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.box-text {
+    font-size: .9em;
+    padding-bottom: 1.4em;
+    padding-top: 0.7em;
+    position: relative;
+    width: 100%;
+}
+.box-text p {
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+}
+.price{
+    line-height: 1;
+}
+.star-rating{
+    margin-bottom: 5px;
+}
+span.amount{
+    color: #111;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.product__link{
+    font-size: 15px;
+    text-decoration: none;
+    color: #1d1547;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+.btn-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+@media (max-width:376px){
+    .product-sale{
+        width: 40px;
+        height: 40px;
+        font-size:10px;
+    }
+    .old-price{
+        display: block;
+    }
+}
+@media (min-width:768px) and (max-width:1020px){
+    .product-sale{
+        width: 40px;
+        height: 40px;
+        font-size:10px;
+    }
+    .old-price{
+        display: block;
+    }
+}
+.category_product{
+    background-image: url(./img/ongnhom.webp);
+    top: 100;
+}
+.home-product-item{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    transition: transform ease-in 0.1s;
+    will-change: transform;
+}
+.home-product-item__img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.old-price{
+    text-decoration: line-through;
+    color: #ccc;
+    margin-right:8px;
+    
+}
+button a{
+    width: 100%;
+}
